@@ -1,6 +1,6 @@
 Build Instructions:
 
-mkdir ~/AOSP && cd ~/AOSP
+git clone https://github.com/grogg/platform.git -b lollipop AOSP && cd ~/AOSP
 
 repo init -u https://github.com/grogg/platform.git -b lollipop
 
