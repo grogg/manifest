@@ -2,16 +2,18 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+  <remote  name="grogg"
+           fetch="https://github.com/grogg/" />
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <remote  name="grogg"
-           fetch="https://github.com/grogg/" />
-
-  <!-- grogg repos -->
-  <project path="build" name="platform_build" remote="grogg" revision="lollipop" />
+    <!-- grogg repos -->
+  <project path="build" name="platform_build" remote="grogg" revision="lollipop" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/asus/deb" name="platform_device_asus_deb" remote="grogg" revision="lollipop" />
   <project path="device/asus/flo" name="platform_device_asus_flo" remote="grogg" revision="lollipop" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="grogg" revision="lollipop" />
