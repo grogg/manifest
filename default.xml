@@ -25,6 +25,7 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Launcher2" name="platform_packages_apps_Launcher2" remote="grogg" revision="lollipop" />
+  <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="grogg" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="grogg" revision="lollipop" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="grogg" revision="lollipop" />
