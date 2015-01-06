@@ -6,14 +6,11 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="grogg"
            fetch="https://github.com/grogg/" />
-  <remote  name="gh"
-           fetch="https://github.com/"
-           review="" />
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <!-- grogg repos -->
+    <!-- grogg repos -->
   <project path="build" name="platform_build" remote="grogg" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -40,16 +37,6 @@
   <project path="system/core" name="platform_system_core" remote="grogg" revision="lollipop" />
   <project path="vendor" name="platform_vendor" remote="grogg" revision="lollipop" />
 
-  <!-- unorom repos -->
-  <project path="local_manifest" name="UnORoms/local_manifest" remote="gh" revision="cm-12.0" />
-  <project path="device/htc/pyramid" name="UnORoms/android_device_htc_pyramid" remote="gh" revision="cm-12.0" />
-  <project path="device/htc/msm8660-common" name="UnORoms/android_device_htc_msm8660-common" remote="gh" revision="cm-12.0" />
-  <project path="vendor/htc" name="UnORoms/proprietary_vendor_htc" remote="gh" revision="cm-12.0" />
-  <project path="kernel/htc/msm8660" name="UnORoms/akh8960_cm" remote="gh" revision="cm-12.0" />
-  <project path="hardware/qcom/audio-caf/msm8660" name="UnORoms/android_hardware_qcom_audio-caf_msm8660" remote="gh" revision="cm-12.0"/>
-  <project path="hardware/qcom/media-caf/msm8660" name="UnORoms/android_hardware_qcom_media-caf_msm8660" remote="gh" revision="cm-12.0"/>
-  <project path="hardware/qcom/display-caf/msm8660" name="UnORoms/android_hardware_qcom_display-caf_msm8660" remote="gh" revision="cm-12.0"/>
-  
   <!-- aosp repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
