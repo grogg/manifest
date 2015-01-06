@@ -45,7 +45,7 @@
   <project path="device/htc/pyramid" name="Ivanich/android_device_htc_pyramid" remote="gh" revision="cm-12.0" />
   <project path="device/htc/msm8660-common" name="UnORoms/android_device_htc_msm8660-common" remote="gh" revision="cm-12.0" />
   <project path="vendor/htc" name="UnORoms/proprietary_vendor_htc" remote="gh" revision="cm-12.0" />
-  <project path="kernel/htc/msm8660" name="Ivanich/kernel_htc_pyramid" remote="gh" revision="cm-12.0" />
+  <project path="kernel/htc/msm8660" name="Ivanich/android_kernel_htc_pyramid" remote="gh" revision="cm-12.0" />
   <project path="hardware/qcom/audio-caf/msm8660" name="UnORoms/android_hardware_qcom_audio-caf_msm8660" remote="gh" revision="cm-12.0"/>
   <project path="hardware/qcom/media-caf/msm8660" name="UnORoms/android_hardware_qcom_media-caf_msm8660" remote="gh" revision="cm-12.0"/>
   <project path="hardware/qcom/display-caf/msm8660" name="UnORoms/android_hardware_qcom_display-caf_msm8660" remote="gh" revision="cm-12.0"/>
