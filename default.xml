@@ -24,6 +24,7 @@
   <project path="external/android-visualizer" name="platform_external_android-visualizer" remote="grogg" revision="lollipop" />
   <project path="external/busybox" name="platform_external_busybox" remote="grogg" revision="lollipop" />
   <project path="external/libtruezip" name="platform_external_libtruezip" remote="grogg" revision="lollipop" />
+  <project path="external/libvterm" name="platform_external_libvterm" remote="grogg" revision="lollipop" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="grogg" revision="lollipop" />
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="grogg" revision="lollipop" />
@@ -36,6 +37,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="grogg" revision="lollipop" />
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="grogg" revision="lollipop" />
   <project path="packages/apps/SoundRecorder" name="platform_packages_apps_SoundRecorder" remote="grogg" revision="lollipop" />
+  <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="grogg" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="grogg" revision="lollipop" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="grogg" revision="lollipop" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="grogg" revision="lollipop" />
