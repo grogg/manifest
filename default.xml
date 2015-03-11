@@ -34,7 +34,6 @@
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="grogg" revision="lollipop" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="grogg" revision="lollipop" />
-  <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="grogg" revision="lollipop" />
   <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="grogg" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="grogg" revision="lollipop" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="grogg" revision="lollipop" />
