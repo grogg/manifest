@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <!-- grogg repos -->
-  <project path="build" name="platform_build" remote="grogg" revision="lollipop" >
+  <project path="build" name="platform_build" remote="grogg" revision="l" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/asus/deb" name="platform_device_asus_deb" remote="grogg" revision="l" />
