@@ -1,8 +1,8 @@
 Build Instructions:
 
-git clone https://github.com/grogg/build-scripts.git -b lollipop AOSP && cd ~/AOSP
+git clone https://github.com/grogg/build-scripts.git -b l AOSP && cd ~/AOSP
 
-repo init -u https://github.com/grogg/platform.git -b lollipop
+repo init -u https://github.com/grogg/platform.git -b l
 
 repo sync
 
