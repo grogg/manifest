@@ -20,7 +20,7 @@
   <project path="device/asus/flo-kernel/kernel" name="platform_device_asus_flo-kernel_kernel" remote="grogg" revision="l" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="grogg" revision="l" />
   <project path="device/lge/hammerhead-kernel" name="platform_device_lge_hammerhead-kernel" remote="grogg" revision="l" />
-  <project path="device/lge/hammerhead-kernel/kernel" name="platform_device_lge_hammerhead-kernel_kernel" remote="grogg" revision="l" />
+  <project path="device/lge/hammerhead-kernel/kernel" name="platform_device_lge_hammerhead-kernel_kernel" remote="grogg" revision="lollipop" />
   <project path="external/android-visualizer" name="platform_external_android-visualizer" remote="grogg" revision="l" />
   <project path="external/busybox" name="platform_external_busybox" remote="grogg" revision="l" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="grogg" revision="l" />
