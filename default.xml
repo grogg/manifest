@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="grogg"
            fetch="https://github.com/grogg/" />
-  <default revision="refs/tags/android-5.1.0_r1"
+  <default revision="refs/tags/android-5.1.0_r3"
            remote="aosp"
            sync-j="4" />
 
@@ -395,6 +395,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
