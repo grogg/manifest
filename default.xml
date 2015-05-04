@@ -6,6 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="grogg"
            fetch="https://github.com/grogg/" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -17,23 +19,25 @@
   <project path="device/asus/deb" name="platform_device_asus_deb" remote="grogg" revision="l" />
   <project path="device/asus/flo" name="platform_device_asus_flo" remote="grogg" revision="l" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="grogg" revision="l" />
-  <project path="external/android-visualizer" name="platform_external_android-visualizer" remote="grogg" revision="l" />
-  <project path="external/busybox" name="platform_external_busybox" remote="grogg" revision="l" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="grogg" revision="l" />
-  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="grogg" revision="l" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="grogg" revision="l" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="grogg" revision="l" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="grogg" revision="l" />
-  <project path="packages/apps/Eleven" name="platform_packages_apps_Eleven" remote="grogg" revision="l" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="grogg" revision="l" />
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="grogg" revision="l" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="grogg" revision="l" />
-  <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="grogg" revision="l" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="grogg" revision="l" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="grogg" revision="l" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="grogg" revision="l" />
   <project path="system/core" name="platform_system_core" remote="grogg" revision="l" />
   <project path="vendor" name="platform_vendor" remote="grogg" revision="l" />
 
+  <!-- cm repos -->
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-12.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.1" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="12.1" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="cm" revision="cm-12.1" />
+  
   <!-- aosp repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
