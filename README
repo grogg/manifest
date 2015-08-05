@@ -2,7 +2,7 @@ Build Instructions:
 
 git clone https://github.com/grogg/build-scripts.git -b lollipop AOSP && cd ~/AOSP
 
-repo init -u https://github.com/grogg/manifest.git -b lollipop
+repo init -u https://github.com/grogg/manifest.git -b 5.1.1_r9
 
 repo sync
 
