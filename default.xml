@@ -22,7 +22,6 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="grogg" revision="5.1.1_r9" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="grogg" revision="5.1.1_r9" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="grogg" revision="5.1.1_r9" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="grogg" revision="5.1.1_r9" />
   <project path="packages/apps/ScreenRecorder" name="platform_packages_apps_ScreenRecorder" remote="grogg" revision="5.1.1_r9" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="grogg" revision="5.1.1_r9" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="grogg" revision="5.1.1_r9" />
@@ -33,10 +32,8 @@
   <project path="vendor" name="platform_vendor" remote="grogg" revision="5.1.1_r9" />
 
   <!-- cm repos -->
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-12.1" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.1" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.1" />
-  
+
   <!-- aosp repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
